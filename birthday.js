@@ -165,3 +165,14 @@ document.addEventListener("DOMContentLoaded", function() {
         }, 1000); // Wait for the door opening animation to finish
     });
 });
+
+
+
+function showMessages() {
+    const messageBox = document.getElementById('message-box');
+    if (messageBox.classList.contains('hidden')) {
+        messageBox.classList.remove('hidden');
+    } else {
+        messageBox.classList.add('hidden');
+    }
+}

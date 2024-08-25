@@ -372,3 +372,34 @@ html, body {
 }
 
 
+.message-icon {
+    font-size: 2rem;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.message-box {
+    position: fixed;
+    bottom: 70px;
+    right: 20px;
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    text-align: left;
+}
+
+.hidden {
+    display: none;
+}
